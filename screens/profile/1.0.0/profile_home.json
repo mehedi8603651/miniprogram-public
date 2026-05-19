@@ -1,0 +1,242 @@
+{
+  "appBar": {
+    "title": {
+      "data": "Profile",
+      "type": "text"
+    },
+    "type": "appBar"
+  },
+  "body": {
+    "padding": {
+      "left": 24.0,
+      "right": 24.0
+    },
+    "child": {
+      "crossAxisAlignment": "start",
+      "children": [
+        {
+          "data": "Profile profile starter",
+          "style": {
+            "type": "custom",
+            "color": "#1A202C",
+            "fontSize": 28.0,
+            "fontWeight": "w700"
+          },
+          "type": "text"
+        },
+        {
+          "height": 12.0,
+          "type": "sizedBox"
+        },
+        {
+          "data": "Start from a realistic portable profile/settings flow. Replace the copy and data shape with your business case, then add host-specific work only after the contract is real.",
+          "type": "text"
+        },
+        {
+          "height": 16.0,
+          "type": "sizedBox"
+        },
+        {
+          "padding": {
+            "left": 14.0,
+            "top": 12.0,
+            "right": 14.0,
+            "bottom": 12.0
+          },
+          "decoration": {
+            "color": "#E0F2FE",
+            "borderRadius": {
+              "topLeft": 18.0,
+              "topRight": 18.0,
+              "bottomLeft": 18.0,
+              "bottomRight": 18.0
+            }
+          },
+          "child": {
+            "data": "Starter capabilities: analytics",
+            "style": {
+              "type": "custom",
+              "color": "#0C4A6E",
+              "fontSize": 15.0,
+              "fontWeight": "w600"
+            },
+            "type": "text"
+          },
+          "type": "container"
+        },
+        {
+          "height": 20.0,
+          "type": "sizedBox"
+        },
+        {
+          "padding": {
+            "left": 18.0,
+            "top": 18.0,
+            "right": 18.0,
+            "bottom": 18.0
+          },
+          "decoration": {
+            "color": "#FFFFFF",
+            "border": {
+              "color": "#E2E8F0"
+            },
+            "borderRadius": {
+              "topLeft": 20.0,
+              "topRight": 20.0,
+              "bottomLeft": 20.0,
+              "bottomRight": 20.0
+            }
+          },
+          "child": {
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "data": "Preview User",
+                "style": {
+                  "type": "custom",
+                  "color": "#0F172A",
+                  "fontSize": 20.0,
+                  "fontWeight": "w600"
+                },
+                "type": "text"
+              },
+              {
+                "height": 8.0,
+                "type": "sizedBox"
+              },
+              {
+                "data": "Email: preview.user@example.com",
+                "type": "text"
+              },
+              {
+                "data": "Tier: Profile starter",
+                "type": "text"
+              },
+              {
+                "data": "Status: Ready for your real profile fields",
+                "type": "text"
+              }
+            ],
+            "type": "column"
+          },
+          "type": "container"
+        },
+        {
+          "height": 16.0,
+          "type": "sizedBox"
+        },
+        {
+          "padding": {
+            "left": 18.0,
+            "top": 18.0,
+            "right": 18.0,
+            "bottom": 18.0
+          },
+          "decoration": {
+            "color": "#F8FAFC",
+            "borderRadius": {
+              "topLeft": 20.0,
+              "topRight": 20.0,
+              "bottomLeft": 20.0,
+              "bottomRight": 20.0
+            }
+          },
+          "child": {
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "data": "What to customize next",
+                "style": {
+                  "type": "custom",
+                  "color": "#0F172A",
+                  "fontSize": 16.0,
+                  "fontWeight": "w600"
+                },
+                "type": "text"
+              },
+              {
+                "height": 8.0,
+                "type": "sizedBox"
+              },
+              {
+                "data": "Replace the preview copy with your business content.",
+                "type": "text"
+              },
+              {
+                "data": "Wire real profile values from your host-approved model.",
+                "type": "text"
+              },
+              {
+                "data": "Add native or secure actions only after the host contract exists.",
+                "type": "text"
+              }
+            ],
+            "type": "column"
+          },
+          "type": "container"
+        },
+        {
+          "height": 24.0,
+          "type": "sizedBox"
+        },
+        {
+          "onPressed": {
+            "actionType": "miniProgramNavigation",
+            "requestId": "profile-open-details",
+            "action": "openMiniProgramScreen",
+            "payload": {
+              "screenId": "profile_details"
+            }
+          },
+          "child": {
+            "data": "Open profile details",
+            "type": "text"
+          },
+          "type": "filledButton"
+        },
+        {
+          "height": 8.0,
+          "type": "sizedBox"
+        },
+        {
+          "data": "Keep the default starter simple: one internal route from home to details, then grow the flow around your real use case.",
+          "type": "text"
+        },
+        {
+          "height": 16.0,
+          "type": "sizedBox"
+        },
+        {
+          "onPressed": {
+            "actionType": "hostAction",
+            "requestId": "profile-track-open",
+            "action": "trackEvent",
+            "payload": {
+              "name": "profile_opened",
+              "properties": {
+                "source": "profile",
+                "surface": "profile"
+              }
+            }
+          },
+          "child": {
+            "data": "Track profile opened event (logs only)",
+            "type": "text"
+          },
+          "type": "outlinedButton"
+        },
+        {
+          "height": 8.0,
+          "type": "sizedBox"
+        },
+        {
+          "data": "This starter analytics action only writes to the host log. It does not change the UI.",
+          "type": "text"
+        }
+      ],
+      "type": "column"
+    },
+    "type": "singleChildScrollView"
+  },
+  "type": "scaffold"
+}

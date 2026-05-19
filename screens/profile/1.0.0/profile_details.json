@@ -1,0 +1,179 @@
+{
+  "appBar": {
+    "title": {
+      "data": "Profile details",
+      "type": "text"
+    },
+    "type": "appBar"
+  },
+  "body": {
+    "padding": {
+      "left": 24.0,
+      "right": 24.0
+    },
+    "child": {
+      "crossAxisAlignment": "start",
+      "children": [
+        {
+          "data": "Profile details",
+          "style": {
+            "type": "custom",
+            "color": "#1A202C",
+            "fontSize": 26.0,
+            "fontWeight": "w700"
+          },
+          "type": "text"
+        },
+        {
+          "height": 12.0,
+          "type": "sizedBox"
+        },
+        {
+          "data": "Use this second screen as a realistic details or settings page. Keep the starter polished first, then layer deeper routing only when the real flow needs it.",
+          "type": "text"
+        },
+        {
+          "height": 20.0,
+          "type": "sizedBox"
+        },
+        {
+          "padding": {
+            "left": 18.0,
+            "top": 18.0,
+            "right": 18.0,
+            "bottom": 18.0
+          },
+          "decoration": {
+            "color": "#FFFFFF",
+            "border": {
+              "color": "#E2E8F0"
+            },
+            "borderRadius": {
+              "topLeft": 20.0,
+              "topRight": 20.0,
+              "bottomLeft": 20.0,
+              "bottomRight": 20.0
+            }
+          },
+          "child": {
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "data": "Account snapshot",
+                "style": {
+                  "type": "custom",
+                  "color": "#0F172A",
+                  "fontSize": 16.0,
+                  "fontWeight": "w600"
+                },
+                "type": "text"
+              },
+              {
+                "height": 8.0,
+                "type": "sizedBox"
+              },
+              {
+                "data": "Full name: Preview User",
+                "type": "text"
+              },
+              {
+                "data": "Primary email: preview.user@example.com",
+                "type": "text"
+              },
+              {
+                "data": "Member tier: Ready for customization",
+                "type": "text"
+              }
+            ],
+            "type": "column"
+          },
+          "type": "container"
+        },
+        {
+          "height": 16.0,
+          "type": "sizedBox"
+        },
+        {
+          "padding": {
+            "left": 18.0,
+            "top": 18.0,
+            "right": 18.0,
+            "bottom": 18.0
+          },
+          "decoration": {
+            "color": "#F8FAFC",
+            "border": {
+              "color": "#D7E3DD"
+            },
+            "borderRadius": {
+              "topLeft": 20.0,
+              "topRight": 20.0,
+              "bottomLeft": 20.0,
+              "bottomRight": 20.0
+            }
+          },
+          "child": {
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "data": "Preferences starter block",
+                "style": {
+                  "type": "custom",
+                  "color": "#0F172A",
+                  "fontSize": 16.0,
+                  "fontWeight": "w600"
+                },
+                "type": "text"
+              },
+              {
+                "height": 8.0,
+                "type": "sizedBox"
+              },
+              {
+                "data": "Marketing updates: Enabled placeholder",
+                "type": "text"
+              },
+              {
+                "data": "Language: English",
+                "type": "text"
+              },
+              {
+                "data": "Support lane: Portable mini-program preview",
+                "type": "text"
+              }
+            ],
+            "type": "column"
+          },
+          "type": "container"
+        },
+        {
+          "height": 20.0,
+          "type": "sizedBox"
+        },
+        {
+          "onPressed": {
+            "actionType": "miniProgramNavigation",
+            "requestId": "profile-pop-home",
+            "action": "popMiniProgramScreen"
+          },
+          "child": {
+            "data": "Back to profile home",
+            "type": "text"
+          },
+          "type": "outlinedButton"
+        },
+        {
+          "height": 8.0,
+          "type": "sizedBox"
+        },
+        {
+          "data": "This keeps the default starter easy to understand. Add more portable route helpers only when the flow truly needs them.",
+          "type": "text"
+        }
+      ],
+      "type": "column"
+    },
+    "type": "singleChildScrollView"
+  },
+  "type": "scaffold"
+}

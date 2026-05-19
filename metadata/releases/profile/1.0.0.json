@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "provider": "static",
+  "miniProgramId": "profile",
+  "version": "1.0.0",
+  "publishedAtUtc": "2026-05-19T17:21:45.097702Z",
+  "artifacts": {
+    "manifestPath": "manifests/profile/versions/1.0.0.json",
+    "latestManifestPath": "manifests/profile/latest.json",
+    "screensBasePath": "screens/profile/1.0.0/",
+    "assetsBasePath": "assets/profile/1.0.0/"
+  }
+}

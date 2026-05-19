@@ -1,0 +1,24 @@
+{
+  "id": "profile",
+  "version": "1.0.0",
+  "entry": "profile_home",
+  "contractVersion": "1.0.0",
+  "sdkVersionRange": ">=1.0.0 <2.0.0",
+  "requiredCapabilities": [
+    "analytics"
+  ],
+  "cachePolicy": {
+    "manifest": {
+      "mode": "staleWhileError",
+      "maxStaleSeconds": 86400
+    },
+    "entryScreen": {
+      "mode": "staleWhileError",
+      "maxStaleSeconds": 21600
+    }
+  },
+  "fallback": {
+    "strategy": "errorView",
+    "message": "Profile is temporarily unavailable in this host app."
+  }
+}
