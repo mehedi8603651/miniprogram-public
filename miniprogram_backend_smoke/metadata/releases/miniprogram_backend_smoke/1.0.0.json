@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "provider": "static",
+  "miniProgramId": "miniprogram_backend_smoke",
+  "version": "1.0.0",
+  "publishedAtUtc": "2026-05-21T18:39:33.851316Z",
+  "artifacts": {
+    "manifestPath": "manifests/miniprogram_backend_smoke/versions/1.0.0.json",
+    "latestManifestPath": "manifests/miniprogram_backend_smoke/latest.json",
+    "screensBasePath": "screens/miniprogram_backend_smoke/1.0.0/",
+    "assetsBasePath": "assets/miniprogram_backend_smoke/1.0.0/"
+  }
+}
