@@ -1,7 +1,7 @@
 {
   "appBar": {
     "title": {
-      "data": "Backend Smoke 20260522182744 details",
+      "data": "AWS Backend Smoke 20260522193334 details",
       "type": "text"
     },
     "type": "appBar"
@@ -15,7 +15,7 @@
       "crossAxisAlignment": "start",
       "children": [
         {
-          "data": "Backend Smoke 20260522182744 details",
+          "data": "AWS Backend Smoke 20260522193334 details",
           "style": {
             "type": "custom",
             "color": "#1A202C",
@@ -153,7 +153,7 @@
         {
           "onPressed": {
             "actionType": "miniProgramNavigation",
-            "requestId": "backend_smoke_20260522182744-pop-home",
+            "requestId": "aws_backend_smoke_20260522193334-pop-home",
             "action": "popMiniProgramScreen"
           },
           "child": {

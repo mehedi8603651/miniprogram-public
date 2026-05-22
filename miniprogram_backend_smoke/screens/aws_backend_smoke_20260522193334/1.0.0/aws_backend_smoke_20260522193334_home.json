@@ -1,7 +1,7 @@
 {
   "appBar": {
     "title": {
-      "data": "Backend Smoke 20260522182744",
+      "data": "AWS Backend Smoke 20260522193334",
       "type": "text"
     },
     "type": "appBar"
@@ -15,7 +15,7 @@
       "crossAxisAlignment": "start",
       "children": [
         {
-          "data": "Backend Smoke 20260522182744 profile starter",
+          "data": "AWS Backend Smoke 20260522193334 profile starter",
           "style": {
             "type": "custom",
             "color": "#1A202C",
@@ -303,7 +303,7 @@
                 "type": "text"
               },
               {
-                "data": "Tier: Backend Smoke 20260522182744 starter",
+                "data": "Tier: AWS Backend Smoke 20260522193334 starter",
                 "type": "text"
               },
               {
@@ -376,10 +376,10 @@
         {
           "onPressed": {
             "actionType": "miniProgramNavigation",
-            "requestId": "backend_smoke_20260522182744-open-details",
+            "requestId": "aws_backend_smoke_20260522193334-open-details",
             "action": "openMiniProgramScreen",
             "payload": {
-              "screenId": "backend_smoke_20260522182744_details"
+              "screenId": "aws_backend_smoke_20260522193334_details"
             }
           },
           "child": {
@@ -403,13 +403,13 @@
         {
           "onPressed": {
             "actionType": "hostAction",
-            "requestId": "backend_smoke_20260522182744-track-open",
+            "requestId": "aws_backend_smoke_20260522193334-track-open",
             "action": "trackEvent",
             "payload": {
-              "name": "backend_smoke_20260522182744_opened",
+              "name": "aws_backend_smoke_20260522193334_opened",
               "properties": {
-                "source": "backend_smoke_20260522182744",
-                "surface": "backend_smoke_20260522182744"
+                "source": "aws_backend_smoke_20260522193334",
+                "surface": "aws_backend_smoke_20260522193334"
               }
             }
           },

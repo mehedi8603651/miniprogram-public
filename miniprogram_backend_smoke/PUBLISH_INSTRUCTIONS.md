@@ -1,6 +1,6 @@
 # MiniProgram Static Publish
 
-This folder contains public/static delivery artifacts for `backend_smoke_20260522182744`
+This folder contains public/static delivery artifacts for `aws_backend_smoke_20260522193334`
 version `1.0.0`.
 
 Upload the contents of this folder to GitHub Pages, a CDN, S3 public hosting,

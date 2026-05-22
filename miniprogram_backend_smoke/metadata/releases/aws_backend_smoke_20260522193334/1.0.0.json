@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "provider": "static",
+  "miniProgramId": "aws_backend_smoke_20260522193334",
+  "version": "1.0.0",
+  "publishedAtUtc": "2026-05-22T11:35:54.483922Z",
+  "artifacts": {
+    "manifestPath": "manifests/aws_backend_smoke_20260522193334/versions/1.0.0.json",
+    "latestManifestPath": "manifests/aws_backend_smoke_20260522193334/latest.json",
+    "screensBasePath": "screens/aws_backend_smoke_20260522193334/1.0.0/",
+    "assetsBasePath": "assets/aws_backend_smoke_20260522193334/1.0.0/"
+  }
+}

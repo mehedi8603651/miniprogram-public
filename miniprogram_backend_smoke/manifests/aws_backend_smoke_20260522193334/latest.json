@@ -1,7 +1,7 @@
 {
-  "id": "backend_smoke_20260522182744",
+  "id": "aws_backend_smoke_20260522193334",
   "version": "1.0.0",
-  "entry": "backend_smoke_20260522182744_home",
+  "entry": "aws_backend_smoke_20260522193334_home",
   "contractVersion": "1.0.0",
   "sdkVersionRange": ">=1.0.0 <2.0.0",
   "requiredCapabilities": [
@@ -19,6 +19,6 @@
   },
   "fallback": {
     "strategy": "errorView",
-    "message": "Backend Smoke 20260522182744 is temporarily unavailable in this host app."
+    "message": "AWS Backend Smoke 20260522193334 is temporarily unavailable in this host app."
   }
 }
