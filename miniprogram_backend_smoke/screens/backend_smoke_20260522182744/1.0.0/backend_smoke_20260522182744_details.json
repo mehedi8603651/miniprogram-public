@@ -1,7 +1,7 @@
 {
   "appBar": {
     "title": {
-      "data": "MiniProgram Backend Smoke details",
+      "data": "Backend Smoke 20260522182744 details",
       "type": "text"
     },
     "type": "appBar"
@@ -15,7 +15,7 @@
       "crossAxisAlignment": "start",
       "children": [
         {
-          "data": "MiniProgram Backend Smoke details",
+          "data": "Backend Smoke 20260522182744 details",
           "style": {
             "type": "custom",
             "color": "#1A202C",
@@ -153,7 +153,7 @@
         {
           "onPressed": {
             "actionType": "miniProgramNavigation",
-            "requestId": "miniprogram_backend_smoke-pop-home",
+            "requestId": "backend_smoke_20260522182744-pop-home",
             "action": "popMiniProgramScreen"
           },
           "child": {

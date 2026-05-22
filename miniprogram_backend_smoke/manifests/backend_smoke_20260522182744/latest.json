@@ -1,7 +1,7 @@
 {
-  "id": "miniprogram_backend_smoke",
+  "id": "backend_smoke_20260522182744",
   "version": "1.0.0",
-  "entry": "miniprogram_backend_smoke_home",
+  "entry": "backend_smoke_20260522182744_home",
   "contractVersion": "1.0.0",
   "sdkVersionRange": ">=1.0.0 <2.0.0",
   "requiredCapabilities": [
@@ -19,6 +19,6 @@
   },
   "fallback": {
     "strategy": "errorView",
-    "message": "MiniProgram Backend Smoke is temporarily unavailable in this host app."
+    "message": "Backend Smoke 20260522182744 is temporarily unavailable in this host app."
   }
 }

@@ -1,7 +1,7 @@
 {
   "appBar": {
     "title": {
-      "data": "MiniProgram Backend Smoke",
+      "data": "Backend Smoke 20260522182744",
       "type": "text"
     },
     "type": "appBar"
@@ -15,7 +15,7 @@
       "crossAxisAlignment": "start",
       "children": [
         {
-          "data": "MiniProgram Backend Smoke profile starter",
+          "data": "Backend Smoke 20260522182744 profile starter",
           "style": {
             "type": "custom",
             "color": "#1A202C",
@@ -303,7 +303,7 @@
                 "type": "text"
               },
               {
-                "data": "Tier: MiniProgram Backend Smoke starter",
+                "data": "Tier: Backend Smoke 20260522182744 starter",
                 "type": "text"
               },
               {
@@ -376,10 +376,10 @@
         {
           "onPressed": {
             "actionType": "miniProgramNavigation",
-            "requestId": "miniprogram_backend_smoke-open-details",
+            "requestId": "backend_smoke_20260522182744-open-details",
             "action": "openMiniProgramScreen",
             "payload": {
-              "screenId": "miniprogram_backend_smoke_details"
+              "screenId": "backend_smoke_20260522182744_details"
             }
           },
           "child": {
@@ -403,13 +403,13 @@
         {
           "onPressed": {
             "actionType": "hostAction",
-            "requestId": "miniprogram_backend_smoke-track-open",
+            "requestId": "backend_smoke_20260522182744-track-open",
             "action": "trackEvent",
             "payload": {
-              "name": "miniprogram_backend_smoke_opened",
+              "name": "backend_smoke_20260522182744_opened",
               "properties": {
-                "source": "miniprogram_backend_smoke",
-                "surface": "miniprogram_backend_smoke"
+                "source": "backend_smoke_20260522182744",
+                "surface": "backend_smoke_20260522182744"
               }
             }
           },
